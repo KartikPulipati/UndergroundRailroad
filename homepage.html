@@ -6,13 +6,78 @@
             body{
                 background-image: url('oldpaper.jpg');
             }
+            .wrapper1{
+                width: 1000px;
+                height: 500px;
+                
+                overflow: hidden;
+                
 
-            div{
-                background-color: cornsilk;
-                font-size: 1em;
+
+            }
+
+            .Fire{
+                
+                font-size: 1.25em;
                 font-family:'Comic Sans MS', cursive, sans-serif; 
+                width: 250px;
+                height: 300px;
+                padding: 20px;
+                padding-right: 80px;
+                
+                float: left;
+                border: 1px;
+               
+            }
+
+            .FireImage{
+                height: 450px;
                 width: 500px;
-                height: 300px
+                float: left;
+                border: 10px;
+                padding: 10px;
+                
+            
+                overflow: hidden;
+             
+                
+            }
+
+            .wrapper{
+                width: 1000px;
+                height: 500px;
+                
+                overflow: hidden;
+                
+
+
+            }
+
+            .Texas{
+                
+                font-size: 1.25em;
+                font-family:'Comic Sans MS', cursive, sans-serif; 
+                width: 250px;
+                height: 300px;
+                padding: 20px;
+                padding-right: 80px;
+                
+                float: left;
+                border: 1px;
+               
+            }
+
+            .TexasImage{
+                height: 450px;
+                width: 500px;
+                float: left;
+                border: 10px;
+                padding: 10px;
+                
+            
+                overflow: hidden;
+             
+                
             }
         </style>
     </head>
@@ -20,12 +85,17 @@
     <body style= "background-color: rgb(242,238,203);">
         <h1 style = "text-align:center;">The Daily Railroad</h1>
         <a href = "Article1.html" style = "color: #000000; text-decoration: none; font-size: 2em; font-family: 'Comic Sans MS', cursive, sans-serif;">The Texas Declaration Of Independence</a>
-        
-        <div>
-            In this article, we see the thrilling story of Texax and it's Independence from Mexico. They have signed the Declaration Of Independence. In this Gripping article we look at 
+
+        <div class = "wrapper">
+        <div class = "Texas">
+            In this article, we see the thrilling story of Texas and it's Independence from Mexico. They have signed the Declaration Of Independence. In this Gripping article we look at 
             what moved the people living in Texas to go for Independence. Reading this amazing article right now, a amazing tale of freedom written by award-winning journalist Gaurav. 
         </div>
-        <img src="Texas.jpg" alt="Texas Declaration Of Independence" width = "" height = "300" ALIGN = center>
+        <div class ="TexasImage">
+        <img src="Texas.jpg" alt="Texas Declaration Of Independence" style = "height: 450px; width: 450px">
+
+    </div>
+</div>
         
             
      
@@ -33,14 +103,21 @@
 
 
         <a href = "Article2.html" style = "color: #000000; text-decoration: none; font-size: 2em; font-family: 'Comic Sans MS', cursive, sans-serif;">Another Great Fire</a>
-        <p style ="font-size: 1em; font-family: 'Comic Sans MS', cursive, sans-serif; ">
+        <div class = "wrapper1">
+            <div class = "Fire">
             Did you know there was another big fire in New York? New York has a skill for catching on fire, big fires. There were two in past, and one now. 
             Who knows what is the store for New York down the line. People are calling it a curse. Curse or not, we are giving you a detailed report
             on this fire. Get your exculsive report on this fire right now, only on The Illunminati. A gripping report by award-winning journalist Niti.
-        </p>
-        <p class = "aligncenter">
-            <img src="GreatFireOf1845.jpg" alt="The Great Fire of 1845" width = "250" height = "300">
-        </p>
+        </div>
+
+            <div class = "FireImage">
+            <img src="GreatFireOf1845.jpg" alt="The Great Fire of 1845" width = "450px" height = "450px">
+        </div>
+        </div>
+
+        
+            
+        
         
            
     </body>
