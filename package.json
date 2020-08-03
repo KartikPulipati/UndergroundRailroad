@@ -1,0 +1,17 @@
+{
+  "name": "underground_railroads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "jquery": "^3.5.1",
+    "watchify": "^3.11.1"
+  }
+}
